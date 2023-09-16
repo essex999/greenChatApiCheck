@@ -1,0 +1,50 @@
+.topBorder {
+  position: absolute;
+  height: 222px;
+  width: 100%;
+  background-color: #00a884;
+  z-index: 1;
+}
+
+.box {
+  height: 500px;
+  background-color: white;
+  box-shadow: 3px 5px 26px -5px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  margin-top: 50px;
+  position: absolute;
+  z-index: 2;
+  width: 800px;
+  margin-left: calc(50% - 400px);
+  margin-right: calc(50% / 400px);
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.topBox {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.messagesBox {
+  width: 100%;
+  height: 346px;
+  padding-top: 20px;
+  overflow-y: auto;
+}

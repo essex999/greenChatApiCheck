@@ -1,0 +1,13 @@
+.message {
+  min-height: 40px;
+  height: auto;
+  display: flex;
+}
+
+.messageText {
+  max-width: 200px;
+  margin: 10px;
+  word-wrap: break-word; /* Перенос слов, если текст не умещается внутри блока */
+  padding: 5px;
+  border-radius: 10px;
+}
